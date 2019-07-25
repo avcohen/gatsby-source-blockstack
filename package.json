@@ -1,0 +1,32 @@
+{
+    "name": "gatsby-source-blogstack",
+    "version": "0.1.0",
+    "description": "Gatsby Source Plugin for Blogstack built with Blockstack",
+    "main": "gatsby-node.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "aaron v cohen",
+    "license": "MIT",
+    "dependencies": {
+        "blockstack": "^19.2.2",
+        "gatsby-source-filesystem": "^2.1.6",
+        "node-fetch": "^2.6.0"
+    },
+    "keywords": [
+        "blockstack",
+        "w3",
+        "dapp",
+        "gatsby"
+    ],
+    "devDependencies": {
+        "@babel/cli": "^7.5.5",
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "babel-eslint": "^10.0.2",
+        "babel-preset-gatsby-package": "^0.2.2",
+        "eslint": "^6.1.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "prettier": "^1.18.2"
+    }
+}
